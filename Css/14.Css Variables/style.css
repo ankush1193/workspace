@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --primary-text-color: rgb(33, 226, 75);
+    --secondary-text-color: rgb(22, 150, 224);
+    --card-background-color:white;
+    --parent-background-color: rgb(200, 230, 70);
+    --spacing-for-margin-padding:20px;
+}
+.dark{
+    --primary-text-color: #fff;
+    --secondary-text-color: rgb(174, 190, 199);
+    --card-background-color : #333;
+    --parent-background-color: rgb(220, 224, 224);
+    --spacing-for-margin-padding:20px;
+}
+.container{
+    padding: 45px;
+    /* --backg-color: rgb(182, 94, 94); */
+    background-color: var(--parent-background-color);
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+    padding: var(--spacing-for-margin-padding);
+    background-color: var(--card-background-color);
+    margin: var(--card-background-color);
+}
+h2{
+    /* background-color: var(--backg-color); */
+       color: var(--primary-text-color)
+}
+
+.box{
+    padding: 20px;
+    margin-block: 20px;
+    border-radius: 10%;
+    /* background-color: aquamarine; */
+    --backg-color: rgb(94, 136, 136);
+    background-color: var(--card-background-color);
+
+}
+.box p{
+    color: var(--secondary-text-color);
+}
+h4{
+    padding: 45px;
+    color: var(--primary-text-color)
+    /* background-color: aquamarine; */
+}
+/* @media(min-width:600px){
+    .container{
+        --backg-color: rgb(103, 161, 103);
+    }
+
+} */

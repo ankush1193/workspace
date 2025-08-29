@@ -1,0 +1,22 @@
+main{
+    border: 2px solid rgb(235, 139, 13);
+    border-radius: 10px;
+    /* width: 50% */
+    /* vw stand for (view width) vh (view hight) px (Pixcels) em (element relative) rem (root relative) */
+    /* width: 50 vw; */
+}
+section{
+    border: 4px dotted ;
+    /* height: 150vh; */
+    width: 70vw;
+}
+h1{
+    /* font-size: 40px; */
+    font: size 8rem;
+}
+/* body{
+    font-size: 2em
+}
+header{
+    font-size: 2em;
+} */

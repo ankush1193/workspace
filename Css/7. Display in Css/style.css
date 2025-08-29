@@ -1,0 +1,29 @@
+*{
+    /* border: solid greenyellow; */
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+p{
+    /* width: 60%; */
+    display: inline;
+    display: block;
+}
+img{
+    width: 25%;
+    height: auto;
+    display: inline;
+}
+ul{
+    list-style: none;
+     text-align: end ;
+     background-color: yellowgreen;
+     padding: 15px;
+}
+nav{
+    display : inline;
+}
+ul>a:hover{
+    color: white;
+}

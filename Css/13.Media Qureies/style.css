@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(130, 201, 201);
+}
+
+/* @media(orientation: portrait){
+        body{
+            background-color: red;
+        }
+} */
+/* @media(width <= 500px){
+        body{
+            background-color: red;
+        } */
+@media(min-width: 200px)and (max-width:600px){
+        body{
+            background-color: red;
+        }
+}
+/* @media(width <= 200px){
+        body{
+            background-color: rgb(120, 111, 248);
+        }
+} */

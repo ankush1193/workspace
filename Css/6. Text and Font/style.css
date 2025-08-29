@@ -1,0 +1,22 @@
+h1{
+    /* color: red;
+    text-align: center;
+    background-color: lightgray;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: yellowgreen; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: 60px;
+    font-size: 1cm;
+}
+p{
+    /* text-align: justify;
+    text-indent: 10%;
+    text-align: justify;
+    text-indent: 10%;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    word-spacing: 5px;
+    color: transparent;
+    text-shadow: 2px 2px 1px greenyellow; */
+}

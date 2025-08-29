@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(147, 147, 252);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 200px;
+}
+.container{
+    width: 280px;
+    height: 280px;
+    border: 3px solid white;
+    animation: orbit 2s linear infinite;
+    border-radius: 50%;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+    border-radius: 50%;
+    /* transition: 1s ease-in; */
+    /* animation-name: shiftthebox; */
+    /* animation-name: slide-in; */
+    animation-name: orbit;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    /* animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+
+}
+/* .box:hover{
+    /* transform: translate(200px); */
+@keyframes orbit{
+    from{
+    transform: rotate(0);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}
+
+@keyframes slide-in{
+        0%{
+            transform: translate(-200);
+        }
+        100%{
+              transform: translate(200);
+        }
+    }
+@keyframes shiftthebox {
+    0%{
+        transform : translate(0,0);
+        /* border-radius: 180%; */
+    }
+    25%{
+         transform : translate(200px,0);
+         /* background-color: rgb(226, 154, 46); */
+    }
+    50%{
+        transform : translate(200px,200px);
+    }
+    75%{
+        transform : translate(0px,200px);
+    }
+    100%{
+        transform : translate(0,0);
+    }
+}
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    animation: loading  2s infinite alternate;
+}
+@keyfream .loader{
+    from{
+        transform: translatey(-10px);
+    }
+    to{
+        transform: translatey(10px);
+    }
+}

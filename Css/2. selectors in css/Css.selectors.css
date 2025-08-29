@@ -1,0 +1,64 @@
+/* 
+SelectorType{
+propertykey: propertyValue;
+}
+
+*/
+/* Element selector
+p{
+    color: red;
+}
+h2{
+    color: white;
+    background-color: black;
+}
+
+/* Id selector */
+/* #pId{
+    color: blue;
+}
+#p1Id{
+    color: rgb(176, 163, 209);
+    font-family: 'Times New Roman', Times, serif;
+} */ 
+
+/* Class selector
+.p1class{
+    background-color: rgb(240, 199, 35);
+    color: rgb(124, 17, 224);
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+/* Nested selector */
+/* #nestedId, p{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* */
+/* specificity order:
+ >> ID has ha highest order  >> class >> element 
+/* */
+ /* #nestedId{
+    color: red;
+} */
+/* .nestedClass{
+    color: blue;
+} */
+
+
+/* universal selector */
+/* *{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(54, 54, 56);
+} */
+ /* Descendent selector */
+/* #Descendant p{
+    color: cornflowerblue;
+} */
+
+/* Direct child celector */
+#dc> p {
+    color: rgb(119, 235, 3);
+    font: bold;
+}

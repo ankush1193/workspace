@@ -1,0 +1,30 @@
+.container{
+    /* width: 400px;
+    height: 400px; */
+    text-align: justify;
+    border: 1px Solid red ;
+    /* background-color: blueviolet; */
+    overflow: visible ;
+    overflow: scroll;
+     overflow: auto;
+    overflow: hidden;
+
+}
+.img1{
+    /* float: right;
+    float: inline-end;
+    float: right; */
+    float: left;
+}
+.img1{
+    float: right;
+    /* float: inline-end;
+    float: right;  */
+}
+.p2{
+    /* clear: both; */
+    /* color: pink; */
+    /* clear: left;
+    clear: right; */
+    clear: none;
+}

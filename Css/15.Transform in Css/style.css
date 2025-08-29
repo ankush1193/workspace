@@ -1,0 +1,33 @@
+.outer-container{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 100px auto;
+}
+
+.inner-container{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: scale(0.5); */
+    /* transform: scalex(0.5); */
+    /* transform: scaleY(0.5); */
+    /* transform: scaleZ(0.5); */
+    /* transform: scalex(1.5) scaleY(1.5)scaleZ(1.5); */
+    /* transform: scale(); */
+
+    /* transform: skew(35deg); */
+    /* transform: translate(20px, 20px); */
+    /* transform: translate(50%, 50%); */
+
+    /* transform: rotate(90deg); */
+    /* transform: rotatex(90deg); */
+    /* transform: rotatey(90deg); */
+ 
+ 
+    /* transform: rotatez(90deg); */
+}

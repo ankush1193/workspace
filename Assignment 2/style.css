@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  display: flex; /* use to combine all div in a single row */
+  justify-content: space-between; /* space according to each elements */
+  align-items: center;
+  background-color: white;
+  padding: 10px 80px; /* top first and side secondaly */
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navlinks {
+  display: flex;
+  gap: 20px; /* shows gap between home and contact us */
+}
+
+.navlinks a {
+  color: rgb(66, 65, 65);
+  text-decoration: none; /* remove underline default from a tag */
+  padding: 20px 12px;
+  transition: background-color 0.8s; /* use to hover apply on center part (a) */
+}
+
+.navlinks a:hover {
+  background-color: rgb(151, 222, 243);
+  border-radius: 5px;
+}
+
+.username {
+  background-color: rgb(191, 235, 248);
+  color: rgb(27, 118, 253);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: normal;
+  cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.text{
+    flex: 1;
+    padding: 40px;
+}
+.text h1{
+    color: rgb(17, 194, 248);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font-size: 1.1rem;
+    color: rgb(109, 108, 110);
+    margin-bottom: 30px;
+}
+.button{
+display: inline-block;
+background-color:rgb(151, 222, 243) ;
+color: white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s ease;
+font-size: large;
+}
+.button:hover{
+    background-color: rgb(13, 105, 105);
+}
+.image{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.washingmachine{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border-radius: 20px;
+}
